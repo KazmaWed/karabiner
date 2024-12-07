@@ -331,7 +331,7 @@
                         ]
                     },
                     {
-                        "description": "Swap Spacebar and CTRL",
+                        "description": "Swap Spacebar with L-Ctrl, R-Option to Tab, R-Ctrl to Escape",
                         "manipulators": [
                             {
                                 "from": {
@@ -354,6 +354,32 @@
                                 "to": [
                                     {
                                         "key_code": "spacebar",
+                                        "modifiers": []
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "right_option",
+                                    "modifiers": { "optional": ["any"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "tab",
+                                        "modifiers": []
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "right_control",
+                                    "modifiers": { "optional": ["any"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "escape",
                                         "modifiers": []
                                     }
                                 ],
@@ -419,6 +445,17 @@
                                     "modifiers": {
                                         "mandatory": ["left_command"],
                                         "optional": ["any"]
+                                    }
+                                },
+                                "to": [{ "key_code": "escape" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "n",
+                                    "modifiers": {
+                                        "mandatory": ["right_command"],
+                                        "optional": ["left_command"]
                                     }
                                 },
                                 "to": [{ "key_code": "escape" }],
@@ -530,10 +567,6 @@
                         {
                             "from": { "key_code": "application" },
                             "to": [{ "key_code": "right_option" }]
-                        },
-                        {
-                            "from": { "key_code": "caps_lock" },
-                            "to": [{ "key_code": "left_control" }]
                         },
                         {
                             "from": { "key_code": "left_command" },
