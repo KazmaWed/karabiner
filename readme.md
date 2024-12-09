@@ -1,6 +1,6 @@
 ## Right Command Layer
 
-![r_command_layer.png](assets/r_command_layer.png)
+![r_command_layer.png](assets/r-command-layer.png)
 
 ## Assets
 
