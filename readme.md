@@ -1,20 +1,20 @@
-## Set up
+## Simple Modifications
 
-### Recommended Simple Modification Setting
-
-To use the karabiner settings in this repository, first you set up the simple modification asb below.
+R-option is assigned to the bottom-left key to make it easier to switch layers, while L-option is assigned to the original option position on both the left and the right.
 
 ![recommended_modification_keys.png](assets/image/recommended_simple_modifications.png)
 
 ### Result
 
-After simple modification set as above and enable a complex modification named `Swap Space and L-Ctrl`, modification keys look like below.
+With simple modifications and a complex modification named `Swap Space and L-Ctrl`, modification keys look like below.
 
 ![recommended_modification_keys.png](assets/image/modification_keys_result.png)
 
 ---
 
 ## Layers
+
+With the all complex modifications, these layers will be available.
 
 ### Right Command Layer
 
@@ -28,4 +28,6 @@ After simple modification set as above and enable a complex modification named `
 
 ## Assets
 
-- `assets/json/***.json` filas can be viewed and modified at https://www.keyboard-layout-editor.com/
+Note that the R-option is assigned to the bottom-left key using simple modifications.
+
+- `assets/json/***.json` files can be viewed and modified at https://www.keyboard-layout-editor.com/
